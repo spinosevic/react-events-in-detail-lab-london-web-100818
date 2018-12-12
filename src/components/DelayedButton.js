@@ -11,8 +11,8 @@ class DelayedButton extends Component {
   }
   render(){
     return(
-      // <button onClick={(event)=>this.handleClick}>Click</button>
-      <button onClick={this.handleClick}>Click</button>
+      <button onClick={(event)=>this.handleClick(event)}>Click</button>
+      // <button onClick={this.handleClick}>Click</button>
     )
   }
 }
